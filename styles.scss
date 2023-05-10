@@ -1,6 +1,8 @@
 //VARIABLES
 $color-principal: #d6d6d6;
 $color-letra: green;
+@use 'anidacion'; @use 'mixins';
+
 
 body {
     background: $color-principal;
@@ -14,15 +16,3 @@ p{
     color: $color-letra;
 }
 
-//ANIDACIÓN
-.caja {
-    h2{
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: italic;
-    }
-
-    p{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-}
